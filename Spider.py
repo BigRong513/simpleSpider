@@ -96,8 +96,8 @@ def getPicture():
 def main():
 
     #print(getHTMLText("http://www.baidu.com")) #获取baidu html
-    getJingdongContent()   #爬取京东
-    #getAmazonContent()     #爬取Amazon
+    # getJingdongContent()   #爬取京东
+    getAmazonContent()     #爬取Amazon
     # searchByBaidu()        #用Baidu搜索关键词
     #searchBy360()          # 用360搜索关键词
     #getPicture()            #爬取图片
